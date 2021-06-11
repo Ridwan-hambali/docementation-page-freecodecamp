@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  background: #073b4c;
+  color: #fff;
 }
 
 img {
@@ -14,7 +16,7 @@ pre {
   position: fixed;
   left: 0;
   top: 0;
-  background: red;
+  background: #073b4c;
   height: 100%;
   padding: 1rem;
 }
@@ -24,7 +26,16 @@ pre {
 }
 
 hr {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #fff;
+}
+
+a {
+  color: #00f5d4;
+  text-decoration: none;
+}
+
+li {
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 767px) {
