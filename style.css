@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 500px;
+}
+
+pre {
+  overflow: auto;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: red;
+  height: 100%;
+  padding: 1rem;
+}
+
+#main-doc {
+  margin-left: 380px;
+}
+
+hr {
+  border-bottom: 3px solid black;
+}
+
+@media (max-width: 767px) {
+  #navbar {
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+  }
+  #main-doc {
+    margin-left: 0;
+    margin-top: 250px;
+  }
+}
